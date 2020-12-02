@@ -8,7 +8,6 @@ import requests
 from pyaes import AESModeOfOperationCBC
 from requests import Session as req_Session
 
-
 # 随机生成用户空间链接
 def randomly_gen_uspace_url() -> list:
     url_list = []
